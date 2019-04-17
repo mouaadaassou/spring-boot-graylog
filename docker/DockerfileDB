@@ -1,7 +1,7 @@
 FROM mysql:8.0
 
 #
-copy init-db.sql /docker-entrypoint-initdb.d
+copy docker/init-db.sql /docker-entrypoint-initdb.d
 
 # documentation purpose
 EXPOSE 3306
