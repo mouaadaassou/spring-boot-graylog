@@ -1,13 +1,11 @@
 package io.nodom.hibernatemappings.bean;
 
 
-import com.sun.deploy.net.protocol.ProtocolType;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 
-import static org.springframework.beans.factory.config.BeanDefinition.SCOPE_PROTOTYPE;
 
 
 @Configuration
