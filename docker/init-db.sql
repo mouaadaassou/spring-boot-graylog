@@ -1,1 +1,2 @@
-GRANT ALL PRIVILEGES ON hibernate_tutorial.* TO 'root'@'root' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON hibernate_tutorial.* TO 'root'@'%' identified by 'root';
+FLUSH PRIVILEGES;
