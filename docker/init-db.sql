@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON mydb.* TO 'root'@'root' WITH GRANT OPTION;
